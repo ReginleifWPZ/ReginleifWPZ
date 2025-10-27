@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+# My name is Yuri
+ - and I like curry 😎
+
 <!--
 **ReginleifWPZ/ReginleifWPZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

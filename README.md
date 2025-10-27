@@ -1,7 +1,13 @@
 ## Hi there 👋
 
 # My name is Yuri
- - and I like curry 😎
+and I like curry 😎
+
+ `hey guy`
+
+# About Me
+ - I am not working on anything right now
+ - I hope to learn many things
 
 <!--
 **ReginleifWPZ/ReginleifWPZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

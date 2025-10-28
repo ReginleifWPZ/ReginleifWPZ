@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>ReginleifWPZ</title>
+            <meta name="description" content="ReginleifWPZ's github site" />
+    </head>
+ 
+<style type="text/css">
+    
+    @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+    background-color: #f5f5f5;
+    font-family: "Rethink Sans", sans-serif;
+    color: black;
+}
+
+    a {
+        text-decoration:none;
+    }
+    
+    #banner {
+        width:100%;
+        height:200px;
+        background-color: #ffddf0;
+    }
+    
+    #bannerContainer {
+        position: relative;
+        left: 400px;
+        width:70%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #bannerImg {
+        height: inherit;
+        width: 500px;
+        background-image: url("https://static.tumblr.com/p8a16rm/Cm5t4an2p/_________________2.png");
+        background-position: center;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        
+        position: absolute;
+        right: 0;
+    }
+    
+    #bannerImgFade {
+        height: inherit;
+        width:400px;
+        background: linear-gradient(90deg, #ffddf0 0%, #ffddf060 50%, rgba(255, 255, 255, 0) 100%);
+    }
+    
+    #phrase {
+        color: white;
+        font-size: 64px;
+        letter-spacing: 15px;
+        
+    }
+    
+    #profile {
+        width:250px;
+        height:250px;
+        background: #f5f5f5;
+        border-radius: 25px;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        padding:8px;
+    }
+    
+    #innerProfile {
+        height: 230px;
+        background-image: url("https://static.tumblr.com/p8a16rm/yaFt4ckgl/61_i14.png");
+        background-size: cover;
+        border-radius: 17px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        gap: 100px;
+        width: calc(500px + 100px + 500px);
+        margin: 50px;
+    }
+    
+    #left-column {
+        width: 500px;
+        height: auto;
+    }
+    
+    .empty {
+        height: 150px;
+    }
+    
+    .qa {
+        background-color: #fffbfc;
+        margin: 0px 0px 15px 0px;
+    }
+    
+    .qa h2 {
+        background-color: #fdcfe9;
+        padding: 5px;
+    }
+    
+    .qa p {
+        padding: 10px;
+    }
+    
+    .lemuen {
+        z-index: -99;
+        position:sticky;
+        bottom:0;
+        left:75%;
+        width: 400px;
+        height: 600px;
+        background-image: url('https://static.tumblr.com/p8a16rm/1i5t4c4ph/asset_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    footer {
+        height:50px;
+        background: pink;
+    }
+    
+</style>
+ 
+<body>
+    
+<header>
+    <div id="banner">
+        <div id="bannerImg">
+            <div id="bannerImgFade"></div>
+        </div>
+        <div id = "bannerContainer">
+            <h3 id="phrase"> Freedom of Preach </h3>
+        </div>
+    </div>
+    <div id="profile">
+    
+        <div id="innerProfile"></div>
+        
+    </div>
+</header>
+
+<main>
+    
+    
+    <!--left column-->
+    <div id="left-column">
+    
+        <div class="empty"></div>
+        <section class="qa">
+            <h2>About Me</h2>
+            <p>This is a copy from my Tumblr site. The formatting is mostly the same with the obvious exception of no feed.</p>
+        </section>
+        
+        <section class="qa">
+            <h2>What's your blog?</h2>
+            <p>I'm not telling you bro.</p>
+        </section>
+        
+        <section class="qa">
+            <h2>Freedom of Preach? Who's the pink girl?</h2>
+        
+            <p>The pink girl is Lemuen from Arknights. All images are offical art belonging to Hypergryph. Freedom of Preach is the name of the banner that she appears on. It has no meaning. I think it sounds cool as a play on freedom of speech.</p>
+        </section>
+        
+    </div>
+    
+<!--middle column-->
+<div id="container">
+    <p>Feed would've gone here. If I had one.</p>
+</div>
+    
+</main>
+
+<!--right column-->
+<div>
+    
+</div>
+ 
+<div class="lemuen">
+</div>
+
+<footer></footer>
+
+
+ 
+</body>
+</html>
